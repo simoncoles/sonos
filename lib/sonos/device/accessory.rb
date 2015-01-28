@@ -10,7 +10,8 @@ module Sonos::Device
       :'CR100' => 'CR100',   # Released Jan 2005
       :'CR200' => 'CONTROL', # Released Jul 2009
       :'WD100' => 'DOCK',
-      :'ZB100' => 'BRIDGE'   # Released Oct 2007
+      :'ZB100' => 'BRIDGE',  # Released Oct 2007
+      :'BR200' => 'BRIDGE'   # Released Oct 2014
     }.freeze
 
     def self.models
